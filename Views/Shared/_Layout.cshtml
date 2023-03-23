@@ -8,15 +8,16 @@
 
     <div class="container">
         <main role="main" class="pb-3">
-            <p>Dinamik alan burda başlar.</p>
+            @* <p>Dinamik alan burda başlar.</p> *@
             @RenderBody()
-            <p>Dinamik alan biter.</p>
+            @* <p>Dinamik alan biter.</p> *@
         </main>
     </div>
 
 @{await Html.RenderPartialAsync ("_Footer");}
     
 @{await Html.RenderPartialAsync ("_Scripts");}
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
     @await RenderSectionAsync("Scripts", required: false)
 
     

@@ -1056,11 +1056,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Asp.NET Core\\1\\1.csproj",
+      "projectUniqueName": "C:\\Dev\\Asp.NET Core\\DatabaseTodolist\\1.csproj",
       "projectName": "1",
-      "projectPath": "C:\\Dev\\Asp.NET Core\\1\\1.csproj",
+      "projectPath": "C:\\Dev\\Asp.NET Core\\DatabaseTodolist\\1.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\Asp.NET Core\\1\\obj\\",
+      "outputPath": "C:\\Dev\\Asp.NET Core\\DatabaseTodolist\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
