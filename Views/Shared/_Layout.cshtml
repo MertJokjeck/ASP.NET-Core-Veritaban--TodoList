@@ -18,6 +18,8 @@
     
 @{await Html.RenderPartialAsync ("_Scripts");}
 @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+@{await Html.RenderPartialAsync("_ModalSuccess");}
+
     @await RenderSectionAsync("Scripts", required: false)
 
     

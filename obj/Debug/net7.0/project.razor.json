@@ -18695,6 +18695,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Dev\\Asp.NET Core\\DatabaseTodolist\\Views\\Shared\\_ModalSuccess.cshtml",
+      "TargetPath": "Views\\Shared\\_ModalSuccess.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Dev\\Asp.NET Core\\DatabaseTodolist\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
