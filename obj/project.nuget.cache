@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TN8SSAc/M8NiJ6KErSjqNpzPJ7ulBbGJ2N9Mf3cXakMT0ySicmZCpEj6mHmcfY82HmGuTDXdyepMTqEuLkjD4g==",
+  "dgSpecHash": "WhgMPrNyXRC2o49ZM5lO35GeNRrIZGKGgvKo1kRVABtSHjjZ2Ye8qVifj5wPnCtLlCV9v0ls4sihHvAN5A1EYw==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\Asp.NET Core\\DatabaseTodolist\\1.csproj",
+  "projectFilePath": "C:\\Dev\\Asp.NET Core\\1\\1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-preview.2.23128.3\\microsoft.entityframeworkcore.8.0.0-preview.2.23128.3.nupkg.sha512",

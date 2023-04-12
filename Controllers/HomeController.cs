@@ -36,10 +36,7 @@ public class HomeController : Controller
     [Route("/todolist")]
     public IActionResult Todolist()
     {
-        var model = new TodoViewModel()
-        {
-            Todos = db.Todos.OrderByDescending(x => x.Id).ToList(),
-        };
+        var model = new TodoViewModel() { Todos = db.Todos.OrderByDescending(x => x.Id).ToList(), };
         return View(model);
     }
 
