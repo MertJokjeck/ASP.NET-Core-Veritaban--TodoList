@@ -24,6 +24,19 @@
                          <li class='nav-item @(actionName=="Todolist"?"active":"")'>
                             <a class="nav-link text-dark" href="/todolist">Todolist</a>
                         </li>
+                        @if (User.Claims.Count()==0)
+                        {
+                          <li class='nav-item @(actionName=="Signin"?"active":"")'>
+                            <a class="nav-link text-dark" href="/signin">Giriş</a>
+                          </li>
+                        }
+                        else
+                        {
+                             <li class='nav-item @(actionName=="Signin"?"active":"")'>
+                            <a class="nav-link text-dark" href="/signout">Çıkış</a>
+                          </li>
+                        }
+                       
                     </ul>
                 </div>
             </div>

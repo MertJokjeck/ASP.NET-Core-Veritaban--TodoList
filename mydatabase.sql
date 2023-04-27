@@ -25,14 +25,27 @@ CREATE TABLE IF NOT EXISTS `todo` (
   `isComplated` tinyint(1) DEFAULT NULL,
   `title` varchar(100) CHARACTER SET utf8 COLLATE utf8_turkish_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=123 DEFAULT CHARSET=utf8mb3 COLLATE=utf8_turkish_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=128 DEFAULT CHARSET=utf8mb3 COLLATE=utf8_turkish_ci;
 
--- mydatabase.todo: 2 rows tablosu için veriler indiriliyor
+-- mydatabase.todo: 1 rows tablosu için veriler indiriliyor
 /*!40000 ALTER TABLE `todo` DISABLE KEYS */;
-REPLACE INTO `todo` (`id`, `isComplated`, `title`) VALUES
-	(120, 1, 'Merhaba1'),
-	(122, 1, 'Merhaba3');
+INSERT INTO `todo` (`id`, `isComplated`, `title`) VALUES
+	(127, 0, 'alhnc l');
 /*!40000 ALTER TABLE `todo` ENABLE KEYS */;
+
+-- tablo yapısı dökülüyor mydatabase.user
+CREATE TABLE IF NOT EXISTS `user` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) COLLATE utf8_turkish_ci NOT NULL DEFAULT '0',
+  `password` varchar(50) COLLATE utf8_turkish_ci NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb3 COLLATE=utf8_turkish_ci;
+
+-- mydatabase.user: 1 rows tablosu için veriler indiriliyor
+/*!40000 ALTER TABLE `user` DISABLE KEYS */;
+INSERT INTO `user` (`id`, `username`, `password`) VALUES
+	(3, 'admin', '1234');
+/*!40000 ALTER TABLE `user` ENABLE KEYS */;
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

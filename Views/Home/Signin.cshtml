@@ -1,0 +1,38 @@
+
+@model _1.Models.TodoViewModel
+
+@{
+    ViewData["Title"] = "Sign In";
+}
+ <form class="form-signin text-center" method="post" action="signin">
+  @Html.AntiForgeryToken()
+      <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg"  alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal text-center">Please sign in</h1>
+      <input asp-for="Username" type="text" class="form-control" placeholder="Username" required>
+                <span asp-validation-for="Username" class="text-danger mt-2"></span>
+      <input asp-for="Password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <span asp-validation-for="Password" class="text-danger mt-2"></span>
+
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Beni Hatırla
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+       @if (TempData["Danger"] !=null)
+        {
+         <div class="alert alert-danger  mt-3" role="alert">  
+             @TempData["Danger"]
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+         </div>
+        }
+          @if (TempData["Success"] !=null)
+        {
+         <div class="alert alert-success  mt-3" role="alert">  
+             @TempData["Success"]
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+         </div>
+        }
+ 
+      <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
+    </form>

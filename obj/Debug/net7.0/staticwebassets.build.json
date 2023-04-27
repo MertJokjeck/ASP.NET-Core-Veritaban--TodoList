@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R9FU/xORY8zcaZaBXrRBeuF7hQkxPAvt0FwOZJRi3mQ=",
+  "Hash": "aGtOAuzbnEajKEGOeFYhXBpnyy3TQSQsYcZrnoCluqs=",
   "Source": "1",
   "BasePath": "_content/1",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Dev\\Asp.NET Core\\1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\1.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Dev\\Asp.NET Core\\1\\wwwroot\\css\\signin.css",
+      "SourceId": "1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Dev\\Asp.NET Core\\1\\wwwroot\\",
+      "BasePath": "_content/1",
+      "RelativePath": "css/signin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\signin.css"
     },
     {
       "Identity": "C:\\Dev\\Asp.NET Core\\1\\wwwroot\\css\\site.css",
